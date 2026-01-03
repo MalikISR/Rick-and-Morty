@@ -24,6 +24,7 @@
 
 Проект построен по **Clean Architecture + MVVM** и разделён на независимые модули:
 
+```text
 project-root/
 │
 ├── core/                 # Общие классы и утилиты (модели, network utils)
@@ -31,7 +32,7 @@ project-root/
 ├── domain/               # UseCase и интерфейсы репозиториев
 ├── feature_characters/   # Экран списка и экран деталей персонажей
 └── app/                  # Главный модуль с навигацией и точкой входа
-
+```
 
 ---
 
@@ -69,4 +70,3 @@ project-root/
 |-------------------------------------|-------------------------------------------|
 | ![Filters](screenshots/filters.png) | ![Details](screenshots/detail_screen.png) |
 
----
